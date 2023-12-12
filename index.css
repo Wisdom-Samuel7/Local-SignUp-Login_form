@@ -1,0 +1,78 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(orange,navy);
+}
+.content{
+ width: 80vw;
+ height: fit-content;
+ background: cornflowerblue;
+ padding: 2em;
+ border-radius: 1em;
+} 
+form{
+width: 100%;
+height: fit-content;
+background: transparent;
+display: grid;
+grid-template-column: 1fr 1fr 1fr;
+justify-content: center;
+align-items: center;
+/* flex-flow: row nowrap; */
+
+}
+input{
+margin: auto auto; 
+padding: .5em;
+margin: .5em;
+border: none;
+border-radius: 1em;
+padding: 1em;
+
+} 
+input:focus{
+ border: 1px solid #fff;
+ background: orange;
+ outline: none;
+
+}
+input[type="submit"]{
+ background: indianred;
+ font-weight: bolder;
+ color: #fff;
+
+}
+::placeholder{
+ color: dimgrey;
+ font-weight: bolder;
+
+}
+.sign{
+ text-align: center;
+ color: indianred;
+ font-weight: bolder;
+ font-family: fantasy;
+ font-size: x-large;
+
+}
+.txt{
+ font-weight: lighter;
+ color: navy;
+ font-size: .7em;
+}
+input[type:"checkbox"]{
+ background: red;
+
+}
